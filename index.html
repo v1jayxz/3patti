@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Patti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Teen Patti</h1>
+            <div id="gameInfo" class="game-info hidden">
+                <div class="pot">Pot: $<span id="potAmount">0</span></div>
+                <div class="stake">Current Stake: $<span id="currentStake">10</span></div>
+            </div>
+            <button id="startGame" class="btn btn-primary">Start New Game</button>
+        </div>
+
+        <div class="players-container">
+            <div class="player" id="player1">
+                <div class="player-info">
+                    <h2>Player 1</h2>
+                    <div class="chips">Chips: $<span class="chips-amount">1000</span></div>
+                </div>
+                <div class="cards"></div>
+                <div class="controls hidden">
+                    <button class="btn btn-blue see-cards">See Cards</button>
+                    <button class="btn btn-green place-bet">Bet</button>
+                    <button class="btn btn-red fold">Fold</button>
+                </div>
+            </div>
+
+            <div class="player" id="player2">
+                <div class="player-info">
+                    <h2>Player 2</h2>
+                    <div class="chips">Chips: $<span class="chips-amount">1000</span></div>
+                </div>
+                <div class="cards"></div>
+                <div class="controls hidden">
+                    <button class="btn btn-blue see-cards">See Cards</button>
+                    <button class="btn btn-green place-bet">Bet</button>
+                    <button class="btn btn-red fold">Fold</button>
+                </div>
+            </div>
+
+            <div class="player" id="player3">
+                <div class="player-info">
+                    <h2>Player 3</h2>
+                    <div class="chips">Chips: $<span class="chips-amount">1000</span></div>
+                </div>
+                <div class="cards"></div>
+                <div class="controls hidden">
+                    <button class="btn btn-blue see-cards">See Cards</button>
+                    <button class="btn btn-green place-bet">Bet</button>
+                    <button class="btn btn-red fold">Fold</button>
+                </div>
+            </div>
+
+            <div class="player" id="player4">
+                <div class="player-info">
+                    <h2>Player 4</h2>
+                    <div class="chips">Chips: $<span class="chips-amount">1000</span></div>
+                </div>
+                <div class="cards"></div>
+                <div class="controls hidden">
+                    <button class="btn btn-blue see-cards">See Cards</button>
+                    <button class="btn btn-green place-bet">Bet</button>
+                    <button class="btn btn-red fold">Fold</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
